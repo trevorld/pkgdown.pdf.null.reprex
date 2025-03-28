@@ -2,6 +2,12 @@
 
 Minimal reprex of `{pkgdown}` issues when example images are **recorded** using `pdf(NULL)` and then **plotted** by `ragg::agg_png()`.
 
+## Github Issues
+
+* https://github.com/r-lib/pkgdown/issues/2874
+* https://github.com/r-lib/pkgdown/issues/2878
+* https://github.com/r-lib/evaluate/issues/238
+
 ## Notes
 
 * I have some examples that make sure to not run if the active graphics device is `pdf()` in order to avoid triggering `_R_CHECK_MBCS_CONVERSION_FAILURE_` issues with CRAN's R CMD check.
