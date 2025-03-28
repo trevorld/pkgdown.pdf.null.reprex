@@ -1,0 +1,16 @@
+Package: pkgdown.pdf.null.reprex
+Type: Package
+Title: Reprex of 'pkgdown' Bugs When Recording Plots with 'pdf'
+Version: 0.1.0
+Authors@R: c(person("Trevor L.", "Davis", role = c("aut", "cre"),
+                    email = "trevor.l.davis@gmail.com",
+                    comment = c(ORCID = "0000-0001-6341-4639")))
+Description: Provides a 'reprex' of 'pkgdown' bugs when recording plots with 'pdf(NULL)'.
+URL: https://trevorldavis.com/R/pkgdown.pdf.null.reprex/
+BugReports: https://github.com/trevorld/pkgdown.pdf.null.reprex/issues
+License: MIT + file LICENSE
+Imports: systemfonts (>= 1.1.0)
+Suggests: pkgdown
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
